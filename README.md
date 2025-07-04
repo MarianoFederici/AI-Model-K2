@@ -5,11 +5,7 @@ Step-by-Step Process:
   1. Data Collection:I began by loading transaction data from an exchange house based in the UAE for the months of October and November. Additionally, I
      extracted records of blocked transactions by the exchange house for further analysis.
   2. Data Analysis & Verification:I conducted a thorough analysis of the blocked transactions, validating whether the exchange house had appropriately flagged
-     transactions as suspicious. The key filtering criteria included:
-         Corporate remittance transactions exceeding AED 500,000
-         High, medium, and low-risk transactions above the sending limit of AED 300,000
-         Individual customers with high-risk ratings exceeding a sending limit of AED 200,000
-         Corporate customers with transactions in PKR currency
+     transactions as suspicious. The approach focused on identifying patterns that may indicate heightened exposure or atypical activity, particularly within corporate and high-risk customer segments.
   3. Labeling the Data: For each transaction, I marked whether the customer had been flagged for suspicious activity (STR). This was the target variable for
      model training.
   4. Data Preprocessing:I cleaned and prepared the dataset by filtering out irrelevant or redundant columns and ensuring the data was structured appropriately
